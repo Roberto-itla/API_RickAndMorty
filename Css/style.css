@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(2,0,36);
+    background: rgb(13,215,141);
+    background: linear-gradient(90deg, rgba(13,215,141,0.7147233893557423) 0%, rgba(0,212,255,1) 100%, rgba(2,0,36,1) 100%);
+}
+nav a{
+    margin:20px;
+}
+
+div h2{
+    font-size:18px ;
+    margin-top: 8px;
+}
+
+.container{
+    margin-top: 15px;
+    display: flex;
+    gap: 6px 18px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 180px;
+    height: 180px;
+}
+
+.container-selected{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 54.1px;
+    color: #fff;
+    gap: 12px;
+    justify-content: center;
+}
+.container-selected .btn{
+    color: #000;
+    padding: 10px 20px;
+    background-color: #fff;
+    transition: all 0.2s;
+    
+}
+
+.container-selected #pagina{
+    color: black;
+}
+
+.container-selected .btn:hover{
+    color: #fff;
+    background-color: #05D4F9;
+    scale: 1.1;
+}
+
